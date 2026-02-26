@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(to bottom, #690808, #ef5252); */
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.hero {
+   padding: 4rem;
+   text-align: center;
+   color: white;
+}
+
+h1 {
+    font-size: 7rem;
+}
+button {
+    margin-top: 10px;
+}
+
+.btn1 {
+    padding: 8px;
+    width: 5rem;
+    border-radius: 1rem;
+    border: none;
+    color: rgb(147, 31, 31);
+    cursor: pointer;
+}
+
+.btn2 {
+    padding: 8px;
+    width: 6rem;
+    border-radius: 1rem;
+    border: 1px white solid;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.048);
+    cursor: pointer;
+}
+
+.fa-brands {
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+body {
+    animation: float 0.5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+       opacity: 0.3;
+       background-color: rgb(225, 130, 130);
+    }
+    50% {
+       opacity: 1;
+       background-color: royalblue;
+    }
+    100% {
+         opacity: 0.3;
+        background-color: seagreen;
+    }
+}
